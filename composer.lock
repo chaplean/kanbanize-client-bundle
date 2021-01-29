@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cad4181e4992ab59fbea2f4033fe9093",
+    "content-hash": "1af0f8249a1ee356bd9549fb56adfdd8",
     "packages": [
         {
             "name": "chaplean/api-client-bundle",
@@ -4924,7 +4924,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.1 || ^8.0"
+        "php": ">=7.1"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
