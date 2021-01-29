@@ -18,7 +18,9 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder('chaplean_kanbanize_api_client');
-        $treeBuilder->root('chaplean_kanbanize_api_client');
+        if (method_exists($treeBuilder, 'root')) {
+            $treeBuilder->root('chaplean_kanbanize_api_client');
+        }
 
         return $treeBuilder;
     }
